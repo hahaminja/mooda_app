@@ -112,7 +112,7 @@ main{
   width: 100%;
   height: 2742px;
   background-image: url(../images/calendar_bg.jpg);
-  background-size: contain;
+  background-size: cover;
   position: relative;
 }
 .calendar_gif .png{
@@ -149,16 +149,16 @@ main{
   position: absolute;
   bottom: 621px;
   left: 100px;
-  width: 289px;
+  width: 284px;
 }
 /* 캘린더 끝 */
 /* 리뷰 시작 */
 .review{
   position: relative;
   width: 100%;
-  height: 3121px;
-  background-image: url(../images/review_bg.jpg);
-  background-size: contain;
+  height: 3146px;
+  background-image: url(../images/review_bg_02.jpg);
+  background-size: cover;
 }
 .review .top-item-wrap .book_img{
   width: 530px;
@@ -183,6 +183,21 @@ main{
   position: absolute;
   top: 740px;
   left: 76px ;
+}
+.review_gif .png{
+  position: absolute;
+  top: 1372px;
+  left:260px ;
+  width: 339px;
+  height: 680.5px;
+  z-index: 1;
+}
+.review_gif .gif{
+  position: absolute;
+  width: 292px;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  top: 1394px;
+  left: 284px;
 }
 /* 리뷰 끝 */
 /* 다크모드 시작 */
